@@ -7,7 +7,6 @@ class App extends Component {
   state = {
     text: ""
   };
-
   handelAdd = async e =>{
     await this.setState({
       text : e.target.value
