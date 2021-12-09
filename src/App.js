@@ -35,7 +35,7 @@ class App extends Component {
         <br></br>
         <button 
         onClick = {this.handelSubmit}
-        className="btn-success" id="submit">Save</button>
+        className="btn btn-success" id="submit">Save</button>
       </div>
     );
   }
